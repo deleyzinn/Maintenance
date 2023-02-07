@@ -1,0 +1,8 @@
+name: Maintenance
+version: 1.0
+author: Deley
+main: me.deley.maintenance.PluginMain
+commands:
+  manutencao:
+     description: Comando para ativar/desativar a manutenção.
+     aliases: [manu, maintenance]

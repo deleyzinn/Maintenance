@@ -1,0 +1,33 @@
+#################################################
+#         Maintenance Plugin for SPIGOT         #
+#                                               #
+#        Editor de perm, mensagem, etc..        #
+#################################################
+
+
+#Permissão para poder entrar enquanto a manutenção está ativa.
+bypass-permission: 'maintenance.bypass'
+
+#Permissão para poder utilizar o comando de manutenção.
+maintenance-permission: 'maintenance.use'
+
+#Mensagem quando o jogador entrar enquanto a manutenção está ativa.
+maintenance-top: '&c&lMANUTENCAO' #Mensagem que aparece no topo.
+maintenance-message: '&fO nosso servidor está em manutenção para realizarmos atualizações.' # mensagem que aparece no meio
+maintenance-bottom: '&eSaiba mais em nosso discord: &3discord.gg/seudiscord&e.' # mensagem que aparce embaixo
+
+#Motd quando a manutenção está ativa.
+maintenance-motd:
+  title: '&b&lSEU SERVIDOR'
+  message: '&cManutenção em andamento.'
+
+#Mensagem de quando o jogador for kickado.
+maintenance-kick:
+  top: '&c&lMANUTENCAO' #Mensagem que aparece no topo.
+  message: '&fO nosso servidor está em manutenção para realizarmos atualizações.' # mensagem que aparece no meio
+  bottom: '&eSaiba mais em nosso discord: &3discord.gg/seudiscord&e.' # mensagem que aparce embaixo
+
+
+#Aqui é salvo o status da manutenção, TRUE para ativar, FALSE para desativar.
+#Não mexa aqui, o plugin ativa e desativa automaticamente quando o comando é executado.
+maintenance-stats: false
